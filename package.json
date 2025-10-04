@@ -1,0 +1,25 @@
+{
+  "name": "pages-stack",
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler pages dev --compatibility-date=2023-02-05 -- npm vite",
+    "build": "vite build",
+    "deploy": "npm run build && wrangler pages deploy pages"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.2.1",
+    "vite": "^5.0.8",
+    "wrangler": "^3.53.0"
+  },
+  "dependencies": {
+    "@hono/zod-validator": "^0.2.1",
+    "hono": "^4.2.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "zod": "^3.22.4"
+  }
+}
