@@ -22,7 +22,18 @@ const App = () => {
     fetchData()
   }, [])
 
-  return <h1>{data?.message}</h1>
+  return (
+    <main className="flex min-h-screen flex-col items-center justify-center gap-6 p-8">
+      <h1 className="text-4xl font-semibold text-slate-800">予約管理サービス MVP</h1>
+      <p className="text-lg text-slate-600">{data?.message}</p>
+      <a
+        className="inline-flex items-center rounded-lg bg-slate-900 px-4 py-2 text-sm font-medium text-white shadow transition hover:bg-slate-700"
+        href="/dashboard"
+      >
+        ダッシュボードへ
+      </a>
+    </main>
+  )
 }
 
 export default App

@@ -1,8 +1,13 @@
 # Booking System v1
 
-* Cloudflare Pages
-* Hono
-* React
+## 目的
+生成AIによるソフトウェア開発レベルの確認
+
+## 技術スタック
+
+- Cloudflare Pages
+- Hono
+- React + Tailwind CSS
 
 ## Usage
 
