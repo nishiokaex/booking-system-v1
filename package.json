@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "wrangler pages dev --compatibility-date=2023-02-05 -- npm vite",
+    "dev": "wrangler pages dev --compatibility-date=2023-02-05 -- npx vite",
     "build": "vite build",
     "deploy": "npm run build && wrangler pages deploy pages"
   },
