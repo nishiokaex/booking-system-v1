@@ -1,10 +1,7 @@
-# Hono Stack with Cloudflare Pages
+# Booking System v1
 
 * Cloudflare Pages
 * Hono
-* Zod
-* Zod Validator Middleware
-* `hc`
 * React
 
 ## Usage
@@ -13,11 +10,3 @@
 npm install
 npm run dev
 ```
-
-## Author
-
-Yusuke Wada <https://github.com/yusukebe>
-
-## License
-
-MIT
